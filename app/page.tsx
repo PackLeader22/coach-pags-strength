@@ -8,7 +8,7 @@ export default function Home() {
     { name: "Football", file: "/football.png", link: "/football" },
     { name: "Track & Field", file: "/track.png", link: "/track" },
     { name: "Wrestling", file: "/wrestling.png", link: "/wrestling" },
-    { name: "CrossFit", file: "/crossfit.png", link: "/crossfit" },
+{ name: "CrossFit", file: "/crossfit2.png?v=4", link: "/crossfit" },
     { name: "Weightlifting", file: "/weightlifting.png", link: "/weightlifting" },
   ];
 
