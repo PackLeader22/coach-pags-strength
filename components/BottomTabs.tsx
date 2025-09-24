@@ -22,23 +22,20 @@ export default function BottomTabs() {
             <Link
               key={t.href}
               href={t.href}
-              className={`flex flex-col items-center justify-center py-3 ${
-                active ? "bg-[#C9B037]" : ""
-              }`}
+              className={`flex items-center justify-center py-3 ${active ? "bg-[#C9B037]" : ""}`}
             >
               <Image
                 src={t.file}
                 alt={t.alt}
                 width={28}
                 height={28}
-                className={`${active ? "invert" : ""}`}
+                className={active ? "invert" : ""}
+                priority
               />
             </Link>
           );
         })}
       </div>
-
-      {/* safe area padding for iOS notches */}
       <div className="h-[env(safe-area-inset-bottom)]" />
     </nav>
   );

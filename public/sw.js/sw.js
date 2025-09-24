@@ -1,5 +1,5 @@
 // Very small network-first SW for same-origin GETs
-const CACHE = "cps-v1";
+const CACHE = "cps-v2";
 
 self.addEventListener("install", (event) => {
   self.skipWaiting();
