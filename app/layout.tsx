@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export const metadata = {
   title: "Coach Pags Strength",
   description: "Athlete platform",
