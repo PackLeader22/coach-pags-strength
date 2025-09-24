@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-[#0B0B0B] text-white px-6 py-12">
       <Image
-        src="/your-logo-file.png"  // <-- set to your real logo filename
+        src="/coachpagslogo.png"
         alt="Coach Pags Strength Logo"
         width={120}
         height={120}
